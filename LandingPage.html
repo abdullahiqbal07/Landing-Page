@@ -3,15 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Smart Learining</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- or -->
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
 </head>
 <body>
 
     <!-- first section is about header and intial  -->
-    <section>
-        <img src="" alt="blue image here">
+    <section class="head">
+        <img src="./assets/header-shape.svg" alt="blue image here" class="header-img">
         <header>
-            <a href="">Smart Learning</a>
+            <a href="#">Smart Learning</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
             <nav>
                 <a href="#">Home</a>
                 <a href="#">Features</a>
@@ -22,29 +30,29 @@
         </header>
 
         <div class="home">
-            <div class="left">
+            <div class="left child">
                 <div>
-                    <h1>Let's Make  Learning Fun</h1>
+                    <h1 class="title">Let's Make <br> Learning Fun</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias laboriosam id mollitia accusamus deserunt eaque. Nesciunt, id sit? Iusto optio ex facilis consequuntur sequi.</p>
-                    <div>
-                        <button>Start Learning</button>
-                        <button>Explore More</button>
+                    <div class="btn">
+                        <button class="btn-prime">Start Learning</button>
+                        <button class="btn-ordinary">Explore More</button>
                     </div>
                 </div>
-                <div class="right">
-                    <img src="" alt="computer-pic">
-                </div>
+            </div>
+            <div class="right child">
+                <img src="./assets/hero-image.svg" alt="computer-pic">
             </div>
         </div>
         
     </section>
 
     <!-- this section is about choosing our services -->
-    <section class="whyChooseus">
+    <section class="features">
         <!-- this sub-section is about description of our available services -->
         <div>
             <h1>Why Choose Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquid ipsam magnam atque!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquid ipsam magnam atque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro sit error, facere labore nisi, ab </p>
         </div>
 
         <!-- this sub-section is about our available services -->
@@ -52,19 +60,19 @@
             <div class="cards">
                 
                 <div class="card">
-                    <img src="" alt="star-pic">
+                    <i class='bx bxs-star' ></i>
                     <h1>Engaging Lectures</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore harum dignissimos enim.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore harum dignissimos enim. lore</p>
                 </div>
 
                 <div class="card">
-                    <img src="" alt="thumbs-up">
+                    <i class='bx bxs-like' ></i>
                     <h1>Top Educators</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore harum dignissimos enim.</p>
                 </div>
 
                 <div class="card">
-                    <img src="" alt="graduate">
+                    <i class='bx bxs-graduation'></i>   
                     <h1>Self Paced</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore harum dignissimos enim.</p>
                 </div>
@@ -87,24 +95,24 @@
             <div class="cards">
                 
                 <div class="card">
-                    <img src="" alt="man-speaking">
+                    <img src="./assets/public.jpg" alt="man-speaking">
                     <h1>Public Speaking</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore harum dignissimos enim.</p>
-                    <button>Learn More</button>
+                    <button class="btn-ordinary">Learn More</button>
                 </div>
 
                 <div class="card">
-                    <img src="" alt="camera">
+                    <img src="./assets/photography.jpg" alt="camera">
                     <h1>Photography</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore harum dignissimos enim.</p>
-                    <button>Learn More</button>
+                    <button class="btn-ordinary">Learn More</button>
                 </div>
 
                 <div class="card">
-                    <img src="" alt="laptop">
+                    <img src="./assets/typing.jpg" alt="laptop">
                     <h1>Typing</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore harum dignissimos enim.</p>
-                    <button>Learn More</button>
+                    <button class="btn-ordinary">Learn More</button>
                 </div>
 
             </div>
@@ -112,10 +120,10 @@
     </section>
 
     <!-- this section is about reviews we got from our clients -->
-    <section class="reviews">
+    <section class="testimonial">
         <!-- this sub-section is about description of our available reviews -->
         
-        <div>
+        <div class="info">
             <h1>What Our Students Say</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquid ipsam magnam atque!</p>
         </div>
@@ -125,13 +133,17 @@
             <div class="cards">
                 
                 <div class="card">
-                    <img src="" alt="a-boy">
+                    <div>
+                        <img src="./assets/person-1.jpg" alt="a-boy">
+                    </div>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore harum dignissimos enim.</p>
                     <h1>Mark King</h1>
                 </div>
 
                 <div class="card">
-                    <img src="" alt="a-girl">
+                    <div>
+                        <img src="./assets/person-2.jpg" alt="a-girl">
+                    </div>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore harum dignissimos enim.</p>
                     <h1>Rose Smith</h1>
                 </div>
@@ -143,7 +155,7 @@
 
     <!-- this sections is about our apps and its functionalities -->
 
-    <section>
+    <section class="app">
         <!-- this subsection show our description -->
 
         <div class="first">
@@ -151,44 +163,53 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
         </div>
 
-        <!-- this subsection show pic of our app -->
-        <div class="second">
-            <img src="" alt="myapp">
-        </div>
+        <div class="boss-second">
+           
+            <!-- this subsection show pic of our app -->
+            <div class="second">
+                <img src="./assets/mobile-img2.jpg" alt="myapp">
+            </div>
 
-        <!-- this subsection show functionalities of our app -->
-        <div class="third">
-            <div class="cards">
-                
-                <div class="card">
-                    <img src="" alt="star">
-                    <h1>Set Reminder</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ratione laudantium ea voluptatum perspiciatis.</p>
-                </div>
-                <hr>
-                
-                <div class="card">
-                    <img src="" alt="star">
-                    <h1>Download Lectures</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ratione laudantium ea voluptatum perspiciatis.</p>
-                </div>
-                <hr>
+            <!-- this subsection show functionalities of our app -->
+            <div class="third">
+                <div class="cards">
+                    
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class='bx bxs-star' ></i>
+                            <h1>Set Reminder</h1>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ratione laudantium ea voluptatum perspiciatis.</p>
+                        <hr>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class='bx bxs-star' ></i>
+                            <h1>Download Lectures</h1>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ratione laudantium ea voluptatum perspiciatis.</p>
+                        <hr>
+                    </div>
 
-                <div class="card">
-                    <img src="" alt="star">
-                    <h1>30,000+ Lectures</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ratione laudantium ea voluptatum perspiciatis.</p>
-                </div>
-                <hr>
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class='bx bxs-star' ></i>
+                            <h1>30,000+ Lectures</h1>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ratione laudantium ea voluptatum perspiciatis.</p>
+                        <hr>
+                    </div>
 
+                </div>
             </div>
         </div>
 
 
         <!-- this subsection show availability of our app on different platforms -->
         <div class="fourth">
-            <img src="" alt="Google Play">
-            <img src="" alt="IOS Store">
+            <img src="./assets/google-play.png" alt="Google Play">
+            <img src="./assets/google-play.png" alt="IOS Store">
         </div>
 
     </section>
@@ -200,12 +221,12 @@
         <h1>Smart Learining</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore saepe distinctio quia a quam, perspiciatis voluptas mollitia animi error.</p>
         <div class="social">
-            <img src="" alt="instagram">
-            <img src="" alt="twitter">
-            <img src="" alt="facebook">
+            <i class='bx bxl-instagram' ></i>
+            <i class='bx bxl-twitter' ></i>
+            <i class='bx bxl-facebook-square' ></i>
         </div>
         <hr>
-        <div class="contact us">
+        <div class="contact">
             <div class="phone">
                 <h4>Phone</h4>
                 <p>+12 123456</p>
@@ -218,7 +239,7 @@
         </div>
         <p>Copyright &copy; 2021 Smart Learning. All rights reserved.</p>
         <div class="arrow">
-            &#8593;
+            <i class='bx bx-up-arrow-alt' ></i>
         </div>
     </footer>
 
