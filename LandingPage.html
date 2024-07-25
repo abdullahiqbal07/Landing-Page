@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,17 +15,17 @@
 <body>
 
     <!-- first section is about header and intial  -->
-    <section class="head">
+    <section class="head" id="home">
         <img src="./assets/header-shape.svg" alt="blue image here" class="header-img">
         <header>
             <a href="#">Smart Learning</a>
             <i class='bx bx-menu' id="menu-icon"></i>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">Features</a>
-                <a href="#">Courses</a>
-                <a href="#">Testimonial</a>
-                <a href="#">App</a>
+            <nav id="nav-links"> 
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#courses">Courses</a>
+                <a href="#testimonial">Testimonial</a>
+                <a href="#app">App</a>
             </nav>
         </header>
 
@@ -48,9 +48,9 @@
     </section>
 
     <!-- this section is about choosing our services -->
-    <section class="features">
+    <section class="features" id="features">
         <!-- this sub-section is about description of our available services -->
-        <div>
+        <div class="info">
             <h1>Why Choose Us</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquid ipsam magnam atque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro sit error, facere labore nisi, ab </p>
         </div>
@@ -83,9 +83,9 @@
 
 
     <!-- this section is avialable courses we have -->
-    <section class="courses">
+    <section class="courses" id="courses">
         <!-- this sub-section is about description of our available courses -->
-        <div>
+        <div class="info">
             <h1>Our Popular Courses</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquid ipsam magnam atque!</p>
         </div>
@@ -120,7 +120,7 @@
     </section>
 
     <!-- this section is about reviews we got from our clients -->
-    <section class="testimonial">
+    <section class="testimonial" id="testimonial">
         <!-- this sub-section is about description of our available reviews -->
         
         <div class="info">
@@ -155,10 +155,10 @@
 
     <!-- this sections is about our apps and its functionalities -->
 
-    <section class="app">
+    <section class="app" id="app">
         <!-- this subsection show our description -->
 
-        <div class="first">
+        <div class="info">
             <h1>Download Our Apps</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
         </div>
@@ -177,7 +177,7 @@
                     <div class="card">
                         <div class="card-icon">
                             <i class='bx bxs-star' ></i>
-                            <h1>Set Reminder</h1>
+                            <h3>Set Reminder</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ratione laudantium ea voluptatum perspiciatis.</p>
                         <hr>
@@ -186,7 +186,7 @@
                     <div class="card">
                         <div class="card-icon">
                             <i class='bx bxs-star' ></i>
-                            <h1>Download Lectures</h1>
+                            <h3>Download Lectures</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ratione laudantium ea voluptatum perspiciatis.</p>
                         <hr>
@@ -195,7 +195,7 @@
                     <div class="card">
                         <div class="card-icon">
                             <i class='bx bxs-star' ></i>
-                            <h1>30,000+ Lectures</h1>
+                            <h3>30,000+ Lectures</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ratione laudantium ea voluptatum perspiciatis.</p>
                         <hr>
@@ -239,7 +239,7 @@
         </div>
         <p>Copyright &copy; 2021 Smart Learning. All rights reserved.</p>
         <div class="arrow">
-            <i class='bx bx-up-arrow-alt' ></i>
+            <a href="#"><i class='bx bx-up-arrow-alt' ></i></a>
         </div>
     </footer>
 
